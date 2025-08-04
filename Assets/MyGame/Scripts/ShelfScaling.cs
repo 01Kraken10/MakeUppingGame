@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ShelfScaling : MonoBehaviour
+public class ShelfScaling : MonoBehaviour // это скрипт для адаптации полок(с кремом и споншиком) под разные экраны
 {
     public RectTransform MainCanvas;
     private void Start()
