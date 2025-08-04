@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BookScaling : MonoBehaviour
 {
-    public RectTransform MainCanvas;
+    public RectTransform MainCanvas; // это скрипт для адаптации книги под разные экраны
     private void Start()
     {
         RectTransform MyTransform = GetComponent<RectTransform>();
