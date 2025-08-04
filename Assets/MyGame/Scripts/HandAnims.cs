@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using static TakebleObject;
 
+
+// скрипт для управления рукой (передвижение, анимации, хватаниее объектов и т.п.)
 public class Hand : MonoBehaviour
 {
     public Animator HandAnim; // Аниматор руки
